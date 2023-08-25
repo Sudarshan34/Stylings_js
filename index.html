@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation using JS - Stylings 🥰 </title>
+    <style>
+        #para{
+              display: flex;
+              justify-content: center;
+              margin: 100px;
+              align-items: center;
+              border: 2px solid black ;
+              border-radius: 80px;
+        }
+    
+        .stylings{
+          margin-left: 350px;
+          margin-top: 200px;
+          display: flex;
+          
+        }
+    
+        .stylings>label{
+                padding: 3px;
+        }
+
+      
+    
+        
+    </style>
+</head>
+<body>
+   
+ <div class="stylings">
+    <label for="Select_color">Color:</label>
+    <select id="Select_color">
+        <option value="white">White</option>
+        <option value="gray">gray</option>
+        <option value="pink">Pink</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="black">Black</option>
+    </select>
+
+    <label for="bg_Select_color">Background Color:</label>
+    <select id="bg_Select_color">
+        <option value="white">White</option>
+        <option value="gray">gray</option>
+        <option value="pink">Pink</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+        <option value="black">Black</option>
+    </select>
+
+    <label for="select_padding">Padding:</label>
+    <select id="select_padding">
+        <option value="5px">10px</option>
+        <option value="10px">20px</option>
+        <option value="15px">15px</option>
+        <option value="30px">45px</option>
+        <option value="30px">60px</option>
+    </select>
+
+    <label for="select_fontSize">Font Size:</label>
+    <select id="select_fontSize">
+        <option value="5px">10px</option>
+        <option value="10px">20px</option>
+        <option value="15px">15px</option>
+        <option value="30px">45px</option>
+        <option value="30px">60px</option>
+    </select>
+
+    <label for="select_fontWeight">Font Weight:</label>
+    <select id="select_fontWeight">
+        <option value="normal">Normal</option>
+        <option value="bold">Bold</option>
+        <option value="bolder">Bolder</option>
+
+    </select>
+</div>
+
+    <p id="para">Use Above options to apply styling on me 🙂  </p>
+
+    <script src="dropdown.js"></script>
+</body>
+</html>
